@@ -1,8 +1,6 @@
 // src/App.js 
 import React, { Component } from 'react'
 import './App.css'
-import Scene3d from './Components/Scene3d'
-import Controls from './Components/Controls'
 
 class App extends Component {
 
@@ -22,8 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">                
-        <Scene3d />                
-        <Controls options={this.state.optionNames} optionValues={this.state.optionValues} />        
+        Hello 
       </div>
     )
   }
